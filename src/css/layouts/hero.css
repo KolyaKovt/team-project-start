@@ -1,4 +1,5 @@
 .hero {
+  margin: 0 auto;
   max-width: 375px;
   background-position: center;
   background-size: cover;
@@ -97,6 +98,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 38px;
   padding-top: 260px;
   padding-bottom: 243px;
@@ -161,6 +163,7 @@
 }
 @media only screen and (min-width: 768px) {
   .hero-subtittle {
+    max-width: 585px;
     font-size: 16px;
   }
 }
@@ -177,6 +180,7 @@
   font-weight: 500;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  transition: background-color 250ms linear, color 250ms linear;
 }
 @media only screen and (min-width: 768px) {
   .hero-link {
@@ -187,6 +191,6 @@
 }
 .hero-link:hover,
 .hero-link:focus {
-  background: #fbfbfb;
+  background-color: #fbfbfb;
   color: #1b414b;
 }

@@ -169,7 +169,7 @@
 .hero-link {
   display: flex;
   justify-content: center;
-  padding: 16px 40px;
+  padding: 14px 32px;
   border-radius: 15px;
   background: #1b414b;
   color: #fbfbfb;
@@ -183,5 +183,11 @@
   .hero-link {
     font-size: 18px;
     line-height: 1.1;
+    padding: 16px 40px;
   }
+}
+.hero-link:hover,
+.hero-link:focus {
+  background: #fbfbfb;
+  color: #1b414b;
 }

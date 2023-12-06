@@ -1,1 +1,76 @@
-<h1>rent yachts</h1>
+<section>
+  <div class="container">
+    <h2>Rent a yacht now</h2>
+    <div>
+      <form>
+        <div class="">
+          <div class="">
+            <input
+              class=""
+              type="text"
+              name="user-name"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+              required
+              placeholder="Full Name"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="review-form-input-wrapper">
+            <input
+              class=""
+              type="email"
+              name="user-email"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+              required
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div class="">
+          <div class="">
+            <input
+              class=""
+              type="tel"
+              name="user-phone-number"
+              pattern="[0-9]{3}-[0-9]{3}-{0-9}{2}-[0-9]{2}"
+              required
+              placeholder="Phone number"
+            />
+          </div>
+        </div>
+        <div class="">
+          <textarea
+            class=""
+            name="user-comment"
+            placeholder="Comment"
+            rows="9"
+          ></textarea>
+          <textarea
+            class="tablet"
+            name="user-comment"
+            placeholder="Comment"
+            rows="6"
+          ></textarea>
+        </div>
+        <button class="" type="submit">Send</button>
+      </form>
+    </div>
+
+    <div>
+      <img
+        srcset="
+          ../img/rent-yacht/rent-yacht-mobile.jpg      335w,
+          ../img/rent-yacht/rent-yacht-mobile@2x.jpg   670w,
+          ../img/rent-yacht/rent-yacht-tablet.jpg      704w,
+          ../img/rent-yacht/rent-yacht-tablet@2x.jpg  1408w,
+          ../img/rent-yacht/rent-yacht-desktop.jpg     658w,
+          ../img/rent-yacht/rent-yacht-desktop@2x.jpg 1316w
+        "
+        sizes="(max-width: 767px) 335px, (min-width: 768px) 704px, (min-width: 1280px) 658px,"
+        src="../img/rent-yacht/rent-yacht-mobile.jpg"
+        alt="yacht"
+      />
+    </div>
+  </div>
+</section>

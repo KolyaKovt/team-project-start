@@ -1,12 +1,13 @@
-<section>
+<section class="section-rent-yacht">
   <div class="container">
-    <h2>Rent a yacht now</h2>
-    <div>
-      <form>
-        <div class="">
-          <div class="">
+    <div class="section-rent-yacht-additional-container">
+      <div class="section-rent-yacht-container">
+        <h2 class="section-rent-yacht-title">Rent a yacht now</h2>
+
+        <form>
+          <div class="section-rent-yacht-form">
             <input
-              class=""
+              class="section-rent-yacht-input"
               type="text"
               name="user-name"
               pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
@@ -14,11 +15,9 @@
               placeholder="Full Name"
             />
           </div>
-        </div>
-        <div class="">
-          <div class="review-form-input-wrapper">
+          <div class="section-rent-yacht-form">
             <input
-              class=""
+              class="section-rent-yacht-input"
               type="email"
               name="user-email"
               pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
@@ -26,11 +25,9 @@
               placeholder="Email"
             />
           </div>
-        </div>
-        <div class="">
-          <div class="">
+          <div class="section-rent-yacht-form">
             <input
-              class=""
+              class="section-rent-yacht-input"
               type="tel"
               name="user-phone-number"
               pattern="[0-9]{3}-[0-9]{3}-{0-9}{2}-[0-9]{2}"
@@ -38,39 +35,40 @@
               placeholder="Phone number"
             />
           </div>
-        </div>
-        <div class="">
-          <textarea
-            class=""
-            name="user-comment"
-            placeholder="Comment"
-            rows="9"
-          ></textarea>
-          <textarea
-            class="tablet"
-            name="user-comment"
-            placeholder="Comment"
-            rows="6"
-          ></textarea>
-        </div>
-        <button class="" type="submit">Send</button>
-      </form>
-    </div>
+          <div class="section-rent-yacht-form-comment">
+            <textarea
+              class="section-rent-yacht-form-comment-textarea"
+              name="user-comment"
+              placeholder="Comment"
+              rows="9"
+            ></textarea>
+            <textarea
+              class="section-rent-yacht-textarea"
+              name="user-comment"
+              placeholder="Comment"
+              rows="6"
+            ></textarea>
+          </div>
+          <button class="section-rent-yacht-button" type="submit">Send</button>
+        </form>
+      </div>
 
-    <div>
+      <!-- <div class="section-rent-yacht-image"> -->
       <img
+        class="section-rent-yacht-image"
         srcset="
-          ../img/rent-yacht/rent-yacht-mobile.jpg      335w,
-          ../img/rent-yacht/rent-yacht-mobile@2x.jpg   670w,
+          ../img/rent-yacht/rent-yacht-desktop.jpg     658w,
+          ../img/rent-yacht/rent-yacht-desktop@2x.jpg 1316w,
           ../img/rent-yacht/rent-yacht-tablet.jpg      704w,
           ../img/rent-yacht/rent-yacht-tablet@2x.jpg  1408w,
-          ../img/rent-yacht/rent-yacht-desktop.jpg     658w,
-          ../img/rent-yacht/rent-yacht-desktop@2x.jpg 1316w
+          ../img/rent-yacht/rent-yacht-mobile.jpg      335w,
+          ../img/rent-yacht/rent-yacht-mobile@2x.jpg   670w
         "
         sizes="(max-width: 767px) 335px, (min-width: 768px) 704px, (min-width: 1280px) 658px,"
         src="../img/rent-yacht/rent-yacht-mobile.jpg"
         alt="yacht"
       />
+      <!-- </div> -->
     </div>
   </div>
 </section>

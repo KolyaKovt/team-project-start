@@ -32,6 +32,7 @@
 }
 .footer-socials-link {
   fill: var(--primary-text-color);
+  transition: fill var(--default-transition-properties);
 }
 .footer-socials-link:hover,
 .footer-socials-link:focus {

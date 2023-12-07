@@ -11,7 +11,7 @@
     margin-bottom: 20px;
 }
 
-.advantages-obj {
+.advantages-item {
     counter-increment: my-counter;
     padding-bottom: 40px;
 }
@@ -61,7 +61,7 @@
         row-gap: 60px;
     }
     
-    .advantages-obj {
+    .advantages-item {
         width: calc((100% - 32px) / 2);
     }
     
@@ -97,7 +97,7 @@
         row-gap: 60px;
     }
 
-    .advantages-obj {
+    .advantages-item {
         width: calc((100% - 44px) / 2);
     }
     

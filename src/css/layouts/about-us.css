@@ -1,20 +1,20 @@
-.section-about {
+.section-about-us {
   padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-  .section-about {
+  .section-about-us {
     padding-bottom: 75px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .section-about {
+  .section-about-us {
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .section-about {
+  .section-about-us {
   }
 }
 
@@ -95,7 +95,7 @@
 
 @media screen and (min-width: 768px) {
   .about-us-text-header {
-    max-width: 536px;
+    max-width: 512px;
     height: 144px;
     font-size: 48px;
   }
@@ -202,7 +202,7 @@
   margin-top: 0;
   margin-left: 0;
   max-width: 100%;
-  /* height: 395px; */
+
   border-radius: 24px;
 
   /* background-color: lightgray; */
@@ -211,24 +211,11 @@
 
 @media screen and (min-width: 768px) {
   .about-us-image-container {
-    height: 470px;
-    max-width: 100%;
-
-    /* background-image: url(../img/about-us/about-us-tab.png); */
-    background-color: lightgray;
-    background-repeat: no-repeat;
-    /* background-position: -181.984px -4.244px; */
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us-image-container {
-    width: 1340px;
-    height: 470px;
-    /* background-image: url(../img/about-us/about-us-desktop.png); */
-    /* background-color: lightgray; */
-    background-repeat: no-repeat;
-    /* background-position: -181.984px -4.244px; */
   }
 }
 

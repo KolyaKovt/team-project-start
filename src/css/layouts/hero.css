@@ -107,13 +107,13 @@
   .container-hero {
     gap: 48px;
     padding-top: 345px;
-    padding-bottom: 150px;
+    padding-bottom: 75px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .container-hero {
     padding-top: 235px;
-    padding-bottom: 180px;
+    padding-bottom: 90px;
   }
 }
 .section-tittle {

@@ -13,6 +13,13 @@
     navLink.addEventListener("click", closeMenu);
   });
 
+  function closeMenu() {
+    refs.menu.classList.add("is-hidden");
+    refs.pageHeader.classList.remove("fixed");
+    refs.closeMenuSvg.classList.add("is-hidden");
+    refs.openMenuSvg.classList.remove("is-hidden");
+  }
+
   function toggleMenu() {
     refs.pageHeader.classList.toggle("fixed");
     refs.menu.classList.toggle("is-hidden");

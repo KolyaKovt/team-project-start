@@ -19,10 +19,6 @@
     visibility: hidden;
     pointer-events: none;
   }
-  .mobile-menu-header {
-    width: 100%;
-    margin-bottom: 150px;
-  }
   .mobile-socials-link {
     fill: var(--primary-text-color);
   }

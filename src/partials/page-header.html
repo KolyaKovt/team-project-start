@@ -1,4 +1,4 @@
-<header class="page-header container">
+<header class="page-header container" id="page-header">
   <div class="page-header-container">
     <a href="" class="link logo">yachtjet</a>
     <nav class="page-nav">
@@ -51,9 +51,22 @@
         </a>
       </li>
     </ul>
-    <button type="button" class="toggle-mobile-menu-btn" id="mobile-menu-open">
+    <button
+      type="button"
+      class="toggle-mobile-menu-btn"
+      id="toggle-mobile-menu-btn"
+    >
       <svg class="open-mobile-menu-svg" width="28" height="28">
-        <use href="./img/icons.svg#icon-open-mobile-menu"></use>
+        <use
+          class="toggle-mobile-menu-svg"
+          id="open-menu-svg"
+          href="./img/icons.svg#icon-open-mobile-menu"
+        ></use>
+        <use
+          class="toggle-mobile-menu-svg is-hidden"
+          id="close-menu-svg"
+          href="./img/icons.svg#icon-close-mobile-menu"
+        ></use>
       </svg>
     </button>
   </div>

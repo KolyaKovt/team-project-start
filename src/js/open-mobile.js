@@ -1,22 +1,22 @@
 (() => {
   const refs = {
-    openMenuBtn: document.querySelector("#mobile-menu-open"),
-    closeMenuBtn: document.querySelector("#mobile-menu-close"),
+    pageHeader: document.querySelector("#page-header"),
+    toggleMenuBtn: document.querySelector("#toggle-mobile-menu-btn"),
     menu: document.querySelector("#mobile-menu-container"),
     navLinks: document.querySelectorAll(".page-nav-link"),
+    openMenuSvg: document.querySelector("#open-menu-svg"),
+    closeMenuSvg: document.querySelector("#close-menu-svg"),
   };
 
-  refs.openMenuBtn.addEventListener("click", openMenu);
-  refs.closeMenuBtn.addEventListener("click", closeMenu);
+  refs.toggleMenuBtn.addEventListener("click", toggleMenu);
   refs.navLinks.forEach(navLink => {
     navLink.addEventListener("click", closeMenu);
   });
 
-  function closeMenu() {
-    refs.menu.classList.add("is-hidden");
-  }
-
-  function openMenu() {
-    refs.menu.classList.remove("is-hidden");
+  function toggleMenu() {
+    refs.pageHeader.classList.toggle("fixed");
+    refs.menu.classList.toggle("is-hidden");
+    refs.closeMenuSvg.classList.toggle("is-hidden");
+    refs.openMenuSvg.classList.toggle("is-hidden");
   }
 })();

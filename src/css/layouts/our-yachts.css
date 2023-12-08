@@ -113,12 +113,12 @@
     gap: 170px;
 }
 
-.yaht-characteristics-item {
+/* .yaht-characteristics-item {
     display: inline-flex;
     align-items: flex-start;
     gap: 172px;
 
-}
+} */
 
 .our-yachts-name {
     display: flex;

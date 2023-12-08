@@ -2,9 +2,13 @@
 .page-header {
   width: 100%;
   position: absolute;
+  z-index: 1;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
+}
+.page-header.fixed {
+  position: fixed;
 }
 .page-header-container {
   display: flex;

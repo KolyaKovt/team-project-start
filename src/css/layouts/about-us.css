@@ -1,20 +1,20 @@
-.section-about-us {
+.about-us-section {
   padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-  .section-about-us {
+  .about-us-section {
     padding-bottom: 75px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .section-about-us {
+  .about-us-section {
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .section-about-us {
+  .about-us-section {
   }
 }
 
@@ -201,7 +201,7 @@
 .about-us-image {
   margin-top: 0;
   margin-left: 0;
-  max-width: 100%;
+  width: 100%;
 
   border-radius: 24px;
 
@@ -216,10 +216,12 @@
 
 @media screen and (min-width: 1280px) {
   .about-us-image-container {
+    width: 1340px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .about-us-image-container {
+    min-width: 1341px;
   }
 }

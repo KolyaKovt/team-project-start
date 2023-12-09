@@ -60,7 +60,7 @@
 }
 .reviews-text {
   max-width: 280px;
-  color: var(--primary-text-color);
+  color: rgba(251, 251, 251, 0.40);
   text-align: center;
   margin: 0 auto;
   font-size: 12px;

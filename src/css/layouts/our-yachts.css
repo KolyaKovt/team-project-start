@@ -80,37 +80,38 @@
     }
 }
 
-.our-yachts-img {}
+
+
 
 .container-yachts-text {
     padding-top: 32px;
     padding-right: 16px;
     padding-left: 16px;
-    max-width: 270px;
+    max-width: 302px;
 }
 
 @media only screen and (min-width: 768px) {
     .container-yachts-text {
-        max-width: 272px;
+        max-width: 304px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .container-yachts-text {
-        max-width: 313px;
+        max-width: 345px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .container-yachts-text {
-        max-width: 328px;
+        max-width: 360px;
     }
 }
 
 .our-yachts-name-container {
     display: inline-flex;
     align-items: center;
-    gap: 170px;
+    gap: 150px;
 }
 
 /* .yaht-characteristics-item {
@@ -152,36 +153,50 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    opacity: 0.4;
 }
 
 .yachts-vector {
     max-width: 270px;
+    opacity: 0.4;
 }
 
-.our-yahts-question {
+.yacht-characteristics-container {
+    display: flex;
+    gap: 135px;
+}
+
+.yacht-characteristics-container-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
+}
+
+.our-yahts-question {
     color: #040306;
     font-size: 14px;
     font-weight: 400;
-    line-height: 118%;
-    letter-spacing: 0.42px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    opacity: 0.4;
 }
 
-.our-yahts-answer {
+.yacht-characteristics-container-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 6px;
+}
+
+.our-yahts-answer {
     color: var(--accent-color);
     font-size: 14px;
     font-weight: 400;
-    line-height: 118%;
-    letter-spacing: 0.42px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 .container-yachts-link {

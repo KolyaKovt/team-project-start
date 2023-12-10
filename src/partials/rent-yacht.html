@@ -20,7 +20,7 @@
               class="section-rent-yacht-input"
               type="email"
               name="user-email"
-              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               required
               placeholder="Email"
             />
@@ -50,14 +50,14 @@
       <img
         class="section-rent-yacht-image"
         srcset="
-          ./img/rent-yacht/rent-yacht-desktop.jpg     658w,
-          ./img/rent-yacht/rent-yacht-desktop@2x.jpg 1316w,
+          ./img/rent-yacht/rent-yacht-mobile.jpg      335w,
+          ./img/rent-yacht/rent-yacht-mobile@2x.jpg   670w,
           ./img/rent-yacht/rent-yacht-tablet.jpg      704w,
           ./img/rent-yacht/rent-yacht-tablet@2x.jpg  1408w,
-          ./img/rent-yacht/rent-yacht-mobile.jpg      335w,
-          ./img/rent-yacht/rent-yacht-mobile@2x.jpg   670w
+          ./img/rent-yacht/rent-yacht-desktop.jpg     658w,
+          ./img/rent-yacht/rent-yacht-desktop@2x.jpg 1316w
         "
-        sizes="(max-width: 767px) 335px, (min-width: 768px) 704px, (min-width: 1280px) 658px,"
+        sizes="(min-width: 1280px) 658px, (min-width: 768px) 704px, (max-width: 767px) 335px,"
         src="./img/rent-yacht/rent-yacht-mobile.jpg"
         alt="yacht"
       />

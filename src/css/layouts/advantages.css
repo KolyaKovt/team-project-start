@@ -141,5 +141,9 @@
   .advantages-list {
     max-width: 768px;
   }
+
+  .advantages-item {
+    height: 100px;
+  }
 }
 /* DESKTOP 1440 */

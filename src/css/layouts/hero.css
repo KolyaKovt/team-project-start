@@ -116,7 +116,7 @@
     padding-bottom: 180px;
   }
 }
-.section-tittle {
+.container-hero-tittle {
   max-width: 335px;
   display: flex;
   flex-direction: column;
@@ -125,12 +125,12 @@
   gap: 24px;
 }
 @media only screen and (min-width: 768px) {
-  .section-tittle {
+  .container-hero-tittle {
     max-width: 704px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .section-tittle {
+  .container-hero-tittle {
     max-width: 954px;
   }
 }

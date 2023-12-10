@@ -93,7 +93,7 @@
       url(../../img/hero/hero-bg-desktop1440@2x.jpg);
   }
 }
-.container-hero {
+.hero-container {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -104,19 +104,19 @@
   padding-bottom: 243px;
 }
 @media only screen and (min-width: 768px) {
-  .container-hero {
+  .hero-container {
     gap: 48px;
     padding-top: 345px;
     padding-bottom: 150px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .container-hero {
+  .hero-container {
     padding-top: 235px;
     padding-bottom: 180px;
   }
 }
-.container-hero-tittle {
+.hero-container-tittle {
   max-width: 335px;
   display: flex;
   flex-direction: column;
@@ -125,12 +125,12 @@
   gap: 24px;
 }
 @media only screen and (min-width: 768px) {
-  .container-hero-tittle {
+  .hero-container-tittle {
     max-width: 704px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  .container-hero-tittle {
+  .hero-container-tittle {
     max-width: 954px;
   }
 }

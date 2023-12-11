@@ -1,7 +1,5 @@
 /* PHONE */
 .advantages-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -82,8 +80,6 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .advantages-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
     justify-content: space-between;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {

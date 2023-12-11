@@ -6,6 +6,23 @@
   --default-transition-properties: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 40px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 75px 0;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -54,10 +71,4 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-body {
-  font-family: "Helvetica Neue", sans-serif;
-  color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
 }

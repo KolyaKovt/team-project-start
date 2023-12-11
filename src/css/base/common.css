@@ -6,6 +6,10 @@
   --default-transition-properties: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Helvetica Neue", sans-serif;
   color: var(--primary-text-color);

@@ -72,6 +72,13 @@
     }
 }
 
+@media only screen and (min-width: 1440px) {
+    .our-yachts-list {
+        min-width: 392px;
+        gap: 32px;
+    }
+}
+
 .our-yachts-item {
     background-color: #FBFBFB;
     padding: 16px 16px 32px 16px;

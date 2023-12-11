@@ -1,26 +1,9 @@
 .about-us-section {
-  padding-bottom: 40px;
-  /* max-width: 100%; */
-}
-
-@media screen and (min-width: 768px) {
-  .about-us-section {
-    padding-bottom: 75px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .about-us-section {
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .about-us-section {
-  }
+  padding-top: 0;
 }
 
 .container-about {
-  background-color: #fbfbfb;
+  background-color: var(--primary-text-color);
   border-radius: 24px;
   overflow: hidden;
 }
@@ -37,27 +20,20 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .container-about {
-  }
-}
-
 .about-us-container {
   display: flex;
   max-width: 335px;
-  /* height: 675px; */
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
   border-radius: 24px;
   padding: 40px 20px 40px 20px;
-  background-color: #fbfbfb;
+  background-color: var(--primary-text-color);
 }
 
 @media screen and (min-width: 768px) {
   .about-us-container {
     max-width: 704px;
-    /* height: 675px; */
     padding: 50px 136px 50px 32px;
     gap: 50px;
   }
@@ -67,7 +43,6 @@
   .about-us-container {
     flex-direction: row;
     max-width: 1180px;
-    /* height: 675px; */
     max-width: 1180px;
     padding: 50px 50px 120px 50px;
     gap: 189px;
@@ -86,7 +61,7 @@
 .about-us-text-header {
   max-width: 288px;
 
-  color: #1b414b;
+  color: var(--accent-color);
   font-family: Helvetica Neue;
   font-size: 28px;
   font-style: normal;
@@ -106,11 +81,6 @@
 @media screen and (min-width: 1280px) {
   .about-us-text-header {
     max-width: 513px; /* 537 */
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .about-us-text-header {
   }
 }
 
@@ -134,14 +104,9 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .about-us-text-container {
-  }
-}
-
 .about-us-text-bold {
   max-width: 295px;
-  color: #1b414b;
+  color: var(--accent-color);
   font-family: Helvetica Neue;
   font-size: 18px;
   font-style: normal;
@@ -162,11 +127,6 @@
     max-width: 354px;
 
     letter-spacing: -0.02em;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .about-us-text-bold {
   }
 }
 
@@ -196,10 +156,6 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .about-us-text-small {
-  }
-}
 .about-us-image-container {
   overflow: hidden;
 }
@@ -224,10 +180,5 @@
 @media screen and (min-width: 1280px) {
   .about-us-image {
     min-width: 1340px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .about-us-image-container {
   }
 }

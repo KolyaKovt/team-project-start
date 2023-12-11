@@ -1,10 +1,10 @@
-<section class="rent-yacht-section">
+<section class="section rent-yacht-section" id="rent-yacht-section">
   <div class="container">
     <div class="section-rent-yacht-additional-container">
       <div class="section-rent-yacht-container">
         <h2 class="section-rent-yacht-title">Rent a yacht now</h2>
 
-        <form>
+        <form class="section-rent-yacht-form-and-button">
           <div class="section-rent-yacht-form">
             <input
               class="section-rent-yacht-input"
@@ -30,7 +30,7 @@
               class="section-rent-yacht-input"
               type="tel"
               name="user-phone-number"
-              pattern="[0-9]{3}-[0-9]{3}-{0-9}{2}-[0-9]{2}"
+              pattern="\+?[0-9\s\-\(\)]+"
               required
               placeholder="Phone number"
             />

@@ -1,10 +1,6 @@
 .hero-section {
   padding-top: 260px;
   padding-bottom: 243px;
-  background-image: url("../../img/hero/hero-bg-mobile@1x.jpg");
-  background-position: center top;
-  background-size: cover;
-  background-color: var(--primary-bg-color);
 }
 
 .hero-container {
@@ -66,19 +62,10 @@
   color: var(--accent-color);
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-  screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px) {
-  .hero-section {
-    background-image: url("../../img/hero/hero-bg-mobile@2x.jpg");
-  }
-}
-
 @media screen and (min-width: 768px) {
   .hero-section {
     padding-top: 345px;
     padding-bottom: 150px;
-    background-image: url("../../img/hero/hero-bg-tablet@1x.jpg");
   }
 
   .hero-container {
@@ -105,19 +92,10 @@
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  .hero-section {
-    background-image: url("../../img/hero/hero-bg-tablet@2x.jpg");
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .hero-section {
     padding-top: 235px;
     padding-bottom: 180px;
-    background-image: url("../../img/hero/hero-bg-desktop@1x.jpg");
   }
 
   .hero-container-tittle {
@@ -126,27 +104,5 @@
 
   .hero-tittle {
     font-size: 80px;
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
-  screen and (min-resolution: 192dpi) and (min-width: 1280px),
-  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
-  .hero-section {
-    background-image: url("../../img/hero/hero-bg-desktop@2x.jpg");
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .hero-section {
-    background-image: url("../../img/hero/hero-bg-desktop1440@1x.jpg");
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-  screen and (min-resolution: 192dpi) and (min-width: 1440px),
-  screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-  .hero-section {
-    background-image: url("../../img/hero/hero-bg-desktop1440@2x.jpg");
   }
 }

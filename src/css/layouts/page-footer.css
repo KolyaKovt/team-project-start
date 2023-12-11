@@ -29,6 +29,8 @@
 }
 .footer-nav-link {
   background-color: rgba(251, 251, 251, 0.3);
+  transition: background-color var(--default-transition-properties),
+    color var(--default-transition-properties);
 }
 .footer-socials-link {
   fill: var(--primary-text-color);

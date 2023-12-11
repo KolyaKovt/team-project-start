@@ -210,13 +210,13 @@
   opacity: 0.4;
 }
 
-.yacht-characteristics-container {
+.yacht-characteristics-list {
   display: flex;
   justify-content: space-between;
 }
 
 @media only screen and (min-width: 768px) {
-  .yacht-characteristics-container {
+  .yacht-characteristics-list {
     display: flex;
     justify-content: space-between;
   }

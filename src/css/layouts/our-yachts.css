@@ -59,7 +59,7 @@
 }
 
 .our-yachts-item {
-  background-color: #fbfbfb;
+  background-color: var(--primary-text-color);
   padding: 16px 16px 32px 16px;
   border-radius: 24px;
 }
@@ -282,7 +282,7 @@
 
 .our-yachts-rental-link:hover,
 .our-yachts-rental-link:focus {
-  color: black;
+  color: var(--accent-color);
   background-color: var(--primary-text-color);
   border-color: transparent;
 }

@@ -33,7 +33,7 @@
 }
 .section-rent-yacht-input:hover,
 .section-rent-yacht-input:focus {
-  color: #fbfbfb;
+  color: var(--primary-text-color);
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
 
@@ -59,7 +59,7 @@
 
 .section-rent-yacht-form-comment-textarea:hover,
 .section-rent-yacht-form-comment-textarea:focus {
-  color: #fbfbfb;
+  color: var(--primary-text-color);
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
 
@@ -72,17 +72,16 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: var(--primary-text-color);
-  background-color: #1b414b;
+  background-color: var(--accent-color);
   border: none;
   border-radius: 15px;
   transition: background-color var(--default-transition-properties),
     color var(--default-transition-properties);
-  /* margin-bottom: 80px; */
 }
 
 .section-rent-yacht-button:hover,
 .section-rent-yacht-button:focus {
-  color: #1b414b;
+  color: var(--accent-color);
   background-color: var(--primary-text-color);
 }
 

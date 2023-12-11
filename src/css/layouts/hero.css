@@ -4,7 +4,7 @@
   background-image: url("../../img/hero/hero-bg-mobile@1x.jpg");
   background-position: center top;
   background-size: cover;
-  background-color: #0e1823;
+  background-color: var(--primary-bg-color);
 }
 
 .hero-container {
@@ -31,7 +31,7 @@
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #fbfbfb;
+  color: var(--primary-text-color);
 }
 
 .hero-subtittle {
@@ -49,8 +49,8 @@
   justify-content: center;
   padding: 14px 32px;
   border-radius: 15px;
-  background: #1b414b;
-  color: #fbfbfb;
+  background: var(--accent-color);
+  color: var(--primary-text-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -62,8 +62,8 @@
 
 .hero-link:hover,
 .hero-link:focus {
-  background-color: #fbfbfb;
-  color: #1b414b;
+  background-color: var(--primary-text-color);
+  color: var(--accent-color);
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),

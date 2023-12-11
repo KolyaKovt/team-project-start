@@ -3,7 +3,7 @@
 }
 
 .container-about {
-  background-color: #fbfbfb;
+  background-color: var(--primary-text-color);
   border-radius: 24px;
   overflow: hidden;
 }
@@ -28,7 +28,7 @@
   gap: 40px;
   border-radius: 24px;
   padding: 40px 20px 40px 20px;
-  background-color: #fbfbfb;
+  background-color: var(--primary-text-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -61,7 +61,7 @@
 .about-us-text-header {
   max-width: 288px;
 
-  color: #1b414b;
+  color: var(--accent-color);
   font-family: Helvetica Neue;
   font-size: 28px;
   font-style: normal;
@@ -106,7 +106,7 @@
 
 .about-us-text-bold {
   max-width: 295px;
-  color: #1b414b;
+  color: var(--accent-color);
   font-family: Helvetica Neue;
   font-size: 18px;
   font-style: normal;

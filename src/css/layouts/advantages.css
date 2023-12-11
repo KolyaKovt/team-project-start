@@ -7,7 +7,7 @@
 .advantages-list {
   counter-reset: my-counter;
   border-radius: 24px;
-  background: #1b414b;
+  background: var(--accent-color);
   display: flex;
   flex-wrap: wrap;
   margin: 0;

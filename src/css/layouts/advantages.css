@@ -36,13 +36,13 @@
   }
 
   .advantages-pic {
-    height: 424px;
+    object-fit: contain;
     width: 100%;
   }
 }
 
 .advantages-item::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;

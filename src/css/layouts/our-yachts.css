@@ -223,13 +223,13 @@
     opacity: 0.4;
 }
 
-.yacht-characteristics-container {
+.yacht-characteristics-list {
     display: flex;
     justify-content: space-between;
 }
 
 @media only screen and (min-width: 768px) {
-    .yacht-characteristics-container {
+    .yacht-characteristics-list {
         display: flex;
         justify-content: space-between;
     }
@@ -284,7 +284,7 @@
     padding: 14px 32px;
     border-radius: 15px;
     border: 1px solid rgba(251, 251, 251, 0.35);
-    color: #FBFBFB;
+    color: var(--priamary-text-color);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -298,4 +298,10 @@
         padding: 16px 40px;
         line-height: 1.1;
     }
+}
+
+.our-yachts-rental-link:hover,
+.our-yachts-rental-link:focus {
+    background: var(--priamary-text-color);
+    color: var(--accent-color);
 }

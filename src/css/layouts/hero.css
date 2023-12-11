@@ -7,7 +7,7 @@
       rgba(17, 19, 31, 0.31) 84.12%,
       rgba(17, 19, 31, 0) 99.94%
     ),
-    url("../img/hero/hero-bg-mobile@1x.jpg");
+    url("../../img/hero/hero-bg-mobile@1x.jpg");
   background-position: center top;
   background-size: cover;
   background-color: #0e1823;
@@ -81,7 +81,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url("../img/hero/hero-bg-mobile@2x.jpg");
+      url("../../img/hero/hero-bg-mobile@2x.jpg");
   }
 }
 
@@ -95,7 +95,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url("../img/hero/hero-bg-tablet@1x.jpg");
+      url("../../img/hero/hero-bg-tablet@1x.jpg");
   }
 
   .hero-container {
@@ -132,7 +132,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url("../img/hero/hero-bg-tablet@2x.jpg");
+      url("../../img/hero/hero-bg-tablet@2x.jpg");
   }
 }
 
@@ -146,7 +146,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url("../img/hero/hero-bg-desktop@1x.jpg");
+      url("../../img/hero/hero-bg-desktop@1x.jpg");
   }
 
   .hero-container-tittle {
@@ -168,7 +168,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url("../img/hero/hero-bg-desktop@2x.jpg");
+      url("../../img/hero/hero-bg-desktop@2x.jpg");
   }
 }
 
@@ -180,7 +180,7 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url("../img/hero/hero-bg-desktop1440@1x.jpg");
+      url("../../img/hero/hero-bg-desktop1440@1x.jpg");
   }
 }
 
@@ -194,6 +194,6 @@
         rgba(17, 19, 31, 0.31) 84.12%,
         rgba(17, 19, 31, 0) 99.94%
       ),
-      url("../img/hero/hero-bg-desktop1440@2x.jpg");
+      url("../../img/hero/hero-bg-desktop1440@2x.jpg");
   }
 }

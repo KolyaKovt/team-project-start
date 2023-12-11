@@ -25,6 +25,7 @@
     max-width: 335px;
     gap: 40px;
   }
+
   .advantages-item {
     width: 100%;
     height: 94px;
@@ -32,6 +33,11 @@
 
   .advantages-container {
     gap: 20px;
+  }
+
+  .advantages-pic {
+    height: 424px;
+    width: 100%;
   }
 }
 
@@ -112,6 +118,7 @@
   }
 
   .advantages-pic {
+    width: 704px;
     height: 424px;
   }
 }
@@ -133,6 +140,10 @@
   .advantages-item {
     width: calc((100% - 44px) / 2);
   }
+
+  .advantages-pic {
+    width: 432px;
+  }
 }
 /* DESKTOP */
 
@@ -144,6 +155,10 @@
 
   .advantages-item {
     height: 100px;
+  }
+
+  .advantages-pic {
+    width: 540px;
   }
 }
 /* DESKTOP 1440 */
